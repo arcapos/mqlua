@@ -6,3 +6,6 @@ You can reach the author at marc@msys.ch
 
 Makefile is for BSD systems
 GNUmakefile is for Linux systems
+
+To build mqlua, you must also fetch the arcapos/luazmq repository and
+configure the GNUmakefile so that it can pickup luazmq.h from there.
